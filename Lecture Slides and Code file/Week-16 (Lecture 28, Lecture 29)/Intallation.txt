@@ -1,0 +1,80 @@
+VSCode
+Anaconda
+
+
+
+Anaconda prompt
+
+cd Downloads
+cd chatbot
+conda create -n bot python=3.9
+conda activate bot
+pip freeze
+pip install -r requirements.txt
+
+code .
+
+streamlit run streamlit_app.py
+
+
+
+
+cd..
+
+
+
+
+
+
+
+
+
+conda activate bot
+(base) C:\Users\Muhammad Iqbal>conda activate bot
+
+
+(bot) C:\Users\Muhammad Iqbal>cd C:\Users\Muhammad Iqbal\anaconda3\Scripts
+
+conda activate bot
+(bot) C:\Users\Muhammad Iqbal\anaconda3\Scripts>conda activate bot
+
+conda env list
+(bot) C:\Users\Muhammad Iqbal\anaconda3\Scripts>conda env list
+
+streamlit run c:/Users/Muhammad Iqbal/Downloads/chatbot/streamlit_app.py
+
+
+
+
+
+
+
+
+Check PyArrow Installation:
+Ensure that the pyarrow library is installed in your "bot" Conda environment. You can check this by running the following command:
+
+conda list pyarrow
+----------------------------------------
+
+If it's not installed, you can install it using:
+
+conda install -c conda-forge pyarrow
+----------------------------------------
+
+Update PyArrow:
+If pyarrow is already installed, you might want to update it to the latest version to resolve potential compatibility issues:
+
+conda update -n bot pyarrow
+----------------------------------------
+
+Restart Your Streamlit App:
+
+conda install --upgrade pyarrow
+conda install --update pyarrow
+conda install --update-deps pyarrow
+
+
+----------------------------------------
+
+
+
