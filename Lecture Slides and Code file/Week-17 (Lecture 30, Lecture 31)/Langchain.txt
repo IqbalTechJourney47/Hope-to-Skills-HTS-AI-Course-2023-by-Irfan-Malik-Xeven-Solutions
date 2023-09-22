@@ -1,0 +1,29 @@
+CSV
+
+https://python.langchain.com/docs/modules/data_connection/document_loaders/csv
+
+
+Langchain - docs
+
+	Docs
+
+Retrieval (Sidebar panel)
+	- Retrieval - Document loaders
+					- CSV
+					- PDF
+
+
+
+Retrieval (Sidebar panel)
+	- Retrieval - Vector stores
+
+
+
+
+
+Retrieval (Sidebar panel)
+	- Retrieval - Retrievers
+			- Retrievers (with diagrams)
+
+
+
